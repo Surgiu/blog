@@ -1,4 +1,5 @@
-# Reinforcement Learning
+Reinforcement Learning
+==========================
 
 Reinforcement learning is a type of machine learning that involves training agents to make sequences of decisions. The agent learns to achieve a goal in an uncertain, potentially complex environment. The agent learns to make decisions by interacting with the environment and receiving feedback in the form of rewards or penalties. The agent's goal is to maximize the total reward it receives over time.
 
