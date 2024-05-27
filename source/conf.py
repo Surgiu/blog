@@ -16,7 +16,7 @@ release = '0.1'
 
 extensions = [
     'myst-parser',
-    'sphinx_markdown_tables'
+    'sphinx-markdown-tables'
 ]
 
 templates_path = ['_templates']
