@@ -1,6 +1,6 @@
 import os
 import sys
-#sys.path.insert(0, os.path.abspath('.'))
+sys.path.append(os.path.abspath('plugins'))
 import sphinx_rtd_theme
 
 # Configuration file for the Sphinx documentation builder.
@@ -43,7 +43,7 @@ html_theme_options = {
     # Toc options
     'collapse_navigation': False,
     'sticky_navigation': True,
-    'navigation_depth': 4,
+    'navigation_depth': -1,
 }
 
 html_static_path = ['_static']
