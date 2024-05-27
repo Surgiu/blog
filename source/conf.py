@@ -1,7 +1,7 @@
 import os
 import sys
 sys.path.append(os.path.abspath('plugins'))
-import sphinx_rtd_theme
+#import sphinx_rtd_theme
 
 # Configuration file for the Sphinx documentation builder.
 #
@@ -32,7 +32,7 @@ exclude_patterns = []
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = "sphinx_rtd_theme"
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+#html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 html_theme_options = {
     'canonical_url': '',
