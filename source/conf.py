@@ -15,7 +15,7 @@ release = '0.1'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'myst_parser',
+    'myst-parser',
     'sphinx_markdown_tables'
 ]
 
@@ -28,6 +28,19 @@ exclude_patterns = []
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
+
+html_theme_options = {
+    'canonical_url': '',
+    'analytics_id': 'G-EVD5Z6G6NH',
+    'logo_only': False,
+    'display_version': True,
+    'prev_next_buttons_location': 'None',
+    # Toc options
+    'collapse_navigation': False,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+}
+
 html_static_path = ['_static']
 
 myst_heading_anchors = 3
